@@ -554,7 +554,7 @@
     <h1>Score higher.<br><em>Pay less.</em></h1>
     <p class="sub">1-on-1 tutoring from tutors at Harvard, MIT, and Wellesley — no franchise markup, no rotating cast of strangers.</p>
     <div class="hero-ctas">
-      <a href="#contact" class="btn-primary">Book a free evaluation</a>
+      <a href="#contact" class="btn-primary">Request a free evaluation</a>
       <a href="#services" class="btn-ghost">See what's included</a>
     </div>
     <div class="hero-stats">
@@ -706,10 +706,10 @@
 
 <div class="cta-banner">
   <div class="eyebrow"><span class="dot"></span> Limited spots each month</div>
-  <h2>Call for a free evaluation</h2>
+  <h2>Get a free evaluation</h2>
   <p>30 minutes. Find out your target score, where you stand, and whether ACT or SAT is the better fit.</p>
-  <a href="tel:+12244105637" class="btn-white">Call (224) 410-5637</a>
-  <div class="phone-line">or scroll down to send us your info</div>
+  <a href="#contact" class="btn-white">Request your evaluation</a>
+  <div class="phone-line">or call/text (224) 410-5637</div>
 </div>
 
 <section id="contact">
@@ -734,34 +734,16 @@
       <div class="form-card">
         <h3>Request a free evaluation</h3>
         <div class="form-sub">We'll text or call within a day to set up your call.</div>
-        <form onsubmit="event.preventDefault(); document.getElementById('form-confirm').style.display='block'; this.style.display='none';">
-          <div class="field">
-            <label for="name">Student name</label>
-            <input type="text" id="name" required placeholder="Full name">
-          </div>
-          <div class="field-row">
-            <div class="field">
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" required placeholder="(xxx) xxx-xxxx">
-            </div>
-            <div class="field">
-              <label for="test">Test</label>
-              <select id="test">
-                <option>ACT</option>
-                <option>SAT</option>
-                <option>Not sure yet</option>
-              </select>
-            </div>
-          </div>
-          <div class="field">
-            <label for="grade">Grade level</label>
-            <input type="text" id="grade" placeholder="e.g. Sophomore">
-          </div>
-          <button type="submit" class="form-submit">Request evaluation</button>
-        </form>
-        <div id="form-confirm" style="display:none; text-align:center; padding: 20px 0; color: var(--navy); font-weight:600;">
-          Thanks — we'll be in touch within a day to schedule your free evaluation.
-        </div>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSc3cEAJbWnh5L3ENzoEQJqzGGDZfB_eqnwa6K9xiXuuoCh7Yw/viewform?embedded=true"
+          width="100%"
+          height="700"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          style="border: none; display: block;">
+          Loading…
+        </iframe>
       </div>
     </div>
   </div>
